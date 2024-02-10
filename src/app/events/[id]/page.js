@@ -56,7 +56,7 @@ export default function Event({ params }) {
                 ))}
             </Grid>
             <Grid container spacing={5} sx={{ mt: 3 }}>
-                <Main title="Upcoming activites" />
+                <Main title="Announcements" />
                 <Sidebar
                     title={sidebar.title}
                     description={sidebar.description}
