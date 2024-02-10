@@ -1,7 +1,5 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
-import AppAppBar from "./AppAppBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <AppRouterCacheProvider>
-        <body className={inter.className} style={{ paddingTop: 100 }}>
-          <AppAppBar />
+        <body className={inter.className}>
           {children}
         </body>
       </AppRouterCacheProvider>

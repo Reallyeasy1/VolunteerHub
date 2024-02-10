@@ -4,9 +4,9 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Stack from '@mui/material/Stack';
-import Activity1 from './activity.1.mdx';
-import Activity2 from './activity.2.mdx';
-import Activity3 from './activity.3.mdx';
+import Annoucement1 from './annoucement.1.mdx';
+import Annoucement2 from './annoucement.2.mdx';
+import Annoucement3 from './annoucement.3.mdx';
 
 function Main(props) {
   const { title } = props;
@@ -28,15 +28,15 @@ function Main(props) {
       <Divider />
       <Stack spacing={4} sx={{ mt: 3, mb: 3 }}>
         <div>
-          <Activity3 />
+          <Annoucement3 />
           <Divider/>
         </div>
         <div>
-          <Activity2 />
+          <Annoucement2 />
           <Divider/>
         </div>
         <div>
-          <Activity1 />
+          <Annoucement1 />
           <Divider/>
         </div>
       </Stack>

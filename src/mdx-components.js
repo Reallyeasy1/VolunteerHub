@@ -5,7 +5,7 @@ import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
 
 function MarkdownListItem(props) {
-    return <Box component="li" sx={{ mt: 1, ml: 2, typography: 'body1' }} {...props} />;
+    return <Box component="li" sx={{ mb: 1, ml: 2, typography: 'body1' }} {...props} />;
 }
 
 

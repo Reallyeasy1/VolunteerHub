@@ -12,7 +12,6 @@ function Banner(props) {
   return (
     <Paper
       sx={{
-        position: 'relative',
         backgroundColor: 'grey.800',
         color: '#fff',
         mb: 4,
@@ -24,11 +23,6 @@ function Banner(props) {
     >
       <Box
         sx={{
-          position: 'absolute',
-          top: 0,
-          bottom: 0,
-          right: 0,
-          left: 0,
           backgroundColor: 'rgba(0,0,0,.3)',
         }}
       />
